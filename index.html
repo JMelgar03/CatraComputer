@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CatraComputer</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/alertify.min.css" />
+	<link rel="stylesheet" href="css/themes/semantic.min.css" />
+</head>
 
+<body class="body">
+
+<div class="div_titulo">
+	
+	<p class="p">----CatraComputer----</p>
+</div>
+
+<nav class="navbar navbar-light bg-light" style="background: #000000;">
+  <form class="form-inline">
+    <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button> -->
+   <label class="label_Archivo">Cargar Codigo: <input type="file" class="btn btn-primary btn-sm" id="file-input"></label>
+  </form>
+</nav>
+
+
+
+
+<div class="container">
+ 	<div class="row">
+		<div class="estilo_div col-lg-6 col-md-6 col-s-6 col-xl-6" id="div-editor">
+			
+
+		 </div>
+		 <div class="col-lg-6 col-md-6 col-s-6">
+		 		<div id="label" class="label_texto_pantalla">Pantalla</div>
+		 		<input disabled="true" style="background: #000; color: #03D9DC; " class="estilo_pantalla form-control btn btn-outline-secondary" type="text-Area" name="" id="pantalla">
+
+		 		<div class="div_depurar">
+					<label id="label_depurar" class="label_depurar">Depurar: </label>
+					<label class="label_depurar"> <input type="radio" class="button" name="rbt-depuracion" value="1" 
+							id="rbt-depuracion">Si
+					</label>
+					<label class="label_depurar"><input type="radio" name="rbt-depuracion" value="0" id="rbt-depuracion">No</label>
+				</div>
+	
+				
+					<button id="btn-run" class="btn btn-outline-success">RUN
+						
+
+					</button>
+					<button class="btn btn-outline-warning" id="reset" type="button">Limpiar</button>
+
+		 	</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="js/alertify.min.js"></script>
+</body>
+
+
+</html>
