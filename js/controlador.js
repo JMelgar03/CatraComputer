@@ -91,13 +91,27 @@ $("#btn-run").click(function() {
               {
                   case '10': //alert("LEE");
                         var numero = prompt("introduce un valor");
+                        if(isNaN(numero)||!(numero))
+                        {
+                         $('#'+i).css("background-color", "#E51515");
+                      		errores=true;
+                  
+                      	}
+                      	else{
+                      		
+                      	  $('#'+i).css("background-color", "#fff");
                           $("#"+direccion).val(numero);
                           if($("input[type='radio'][name='rbt-depuracion']:checked").val()==1)
                               {
                                 alert("Memoria: "+$("#"+i).val()+" Acumulador: "+acumulador);
                               }
+                             
                           i++;
+                      	}
+
                         break;
+
+
                   case '11': //alert("Escribe");
                          if($("input[type='radio'][name='rbt-depuracion']:checked").val()==1)
                               {
