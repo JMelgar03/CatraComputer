@@ -209,22 +209,4 @@ $("#btn-run").click(function() {
   }
   // $('#btn-alerta').attr("disabled", true);
   
-
-  
-
-
-
-
-
-
-
- /* var instruccion = $("#000").val();
-
-   var operacion = instruccion.substring(0,2);
-   var direccion = instruccion.substring(2,6);
-   operacion = parseInt(operacion);
-   direccion = parseInt(direccion);
-  alert("operacion = "+operacion);
-  alert("direccion = "+direccion);
-  */
 })
