@@ -50,7 +50,10 @@ $(document).ready(function() {
 
 
 
+$("#reset").click(function(){
 
+  window.location = "index.html";
+})
 
 
 
