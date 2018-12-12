@@ -185,7 +185,7 @@ $("#btn-run").click(function() {
                                 alert("Memoria: "+$("#"+i).val()+" Acumulador: "+acumulador);
                               }
                         break;
-                  case '43': //alert("ALTO");
+                  case '43': 
                           vacio= true;
                           break;
                   default :
@@ -207,6 +207,6 @@ $("#btn-run").click(function() {
 
 
   }
-  // $('#btn-alerta').attr("disabled", true);
+  
   
 })
