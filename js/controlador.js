@@ -20,7 +20,7 @@ $(document).ready(function() {
          ' </div>');
           }
 
-     for ( ; i <=999; i++) {
+    /* for ( ; i <=999; i++) {
                 $("#div-editor").html($("#div-editor").html()+'<div class="input-group col-lg-6">'+
                   '<div class="input-group-prepend">'+
                     '<span class="input-group-text">'+i+'</span>'+
@@ -28,7 +28,7 @@ $(document).ready(function() {
                   '<input type="text" id="'+i+'" aria-label="First name" class="form-control">'+
              ' </div>');
             }
-
+*/
       
 
  $(document).on('change', 'input[type=file]', function(e) {
